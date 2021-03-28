@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{lang}}
+{% endblock title %}
+
+{% block content %}
+<article>
+    <p>{{ section.content | safe }}</p>
+</article>
+{% endblock content %}
